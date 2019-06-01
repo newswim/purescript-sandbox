@@ -1,6 +1,6 @@
 module Test.Main where
 
-import Prelude
+import Prelude (Unit, (==))
 import Effect (Effect)
 import Euler (answer)
 import Test.Assert (assert)

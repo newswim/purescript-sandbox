@@ -1,13 +1,13 @@
 module Main where
 
 import Prelude
-import Effect (Effect)
-import Effect.Console (log)
 
-thing :: String
-thing = "Whyyy!"
+import Chapter02 (diagonal)
+import Effect (Effect)
+import Effect.Console (log, logShow)
+import Euler (answer)
 
 main :: Effect Unit
 main = do
-  log "Hello sailor!"
-  log thing
+  log ("The answer is: " <> show answer)
+  logShow (diagonal 3.0 4.0)
