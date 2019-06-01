@@ -75,6 +75,11 @@ findEntry first last = head <<< filter filterEntry
     returning a Boolean value. Hint: Use PSCi to find the type of the Data.List.null function,
     which tests whether a list is empty or not.
 
+ 4. (Difficult) Write a function removeDuplicates which removes duplicate address book 
+    entries with the same first and last names. Hint: Use PSCi to find the type of the 
+    Data.List.nubBy function, which removes duplicate elements from a list based on an 
+    equality predicate.
+
 -}
 
 -- Answer for exercise #2
